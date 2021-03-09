@@ -87,7 +87,11 @@ namespace CDVJ
              
 
             }
-               
+            if (pctPlayer.Bounds.IntersectsWith(pctPlatform1.Bounds))
+            {
+                
+
+            }    
 
         }
 
