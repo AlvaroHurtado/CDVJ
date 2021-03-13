@@ -48,7 +48,7 @@ namespace CDVJ
             }
             foreach (Control x in this.Controls)
             {
-                if(x is PictureBox && x.Tag == "platform")
+                if(x is PictureBox && (string)x.Tag == "platform")
                 {
                     if(pctPlayer.Bounds.IntersectsWith(x.Bounds) && !jump)
                     {
